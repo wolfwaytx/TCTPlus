@@ -26,6 +26,7 @@ Download the datasets：
 * [VID](http://image-net.org/challenges/LSVRC/2017/)
 * [Lasot](https://paperswithcode.com/dataset/lasot)
 * [GOT-10K](http://got-10k.aitestunion.com/downloads)
+  
 **Note:** `train_dataset/dataset_name/readme.md` has listed detailed operations about how to generate training datasets.
 
 #### Train a model
@@ -35,7 +36,7 @@ To train the TCT+ and model, run `train.py` with the desired configs:
 cd TCTPlus-main
 python ./tools/train_tctrack.py
 ```
-The model will be output in ```snapshot```.
+The model will be output in `snapshot` directory.
 
 ## 3. Test
 
