@@ -46,6 +46,7 @@ Download testing datasets and put them into `test_dataset` directory.
 python ./tools/test.py --dataset DTB70 --tracker_name TCTPlus --snapshot tools/snapshot/tctPlus.pth
 ```
 The testing result will be saved in the `results/dataset_name/tracker_name` directory.
+
 **Note:** The results of TCT+ will be made public after the publication of the paper.
 
 ## 3. Evaluation
